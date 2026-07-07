@@ -1,0 +1,44 @@
+{
+  "identifier": "SUBSCRIPTIONS",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_locale": "en_US"
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21000000",
+      "localizations": [],
+      "name": "Playdate Planner Pro",
+      "subscriptions": [
+        {
+          "adHocOfferPeriod": {
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W"
+          },
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "sub001",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Unlock: Recurring playdate reminders and friend-frequency stats",
+              "displayName": "Playdate Planner Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "playdateplanner_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Playdate Planner Pro Monthly",
+          "subscriptionGroupID": "21000000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
